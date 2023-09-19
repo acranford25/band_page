@@ -36,10 +36,10 @@ export default async () => {
 
   // Makes sure this runs before any thing after it runs
 
-  return new Promise<void>((resolve) => {
-    app.listen(TEST_PORT, () => {
-      console.log(`Test server is listening at http://localhost:${TEST_PORT}`);
-      resolve();
-    });
-  });
+  //   return new Promise<void>((resolve) => {
+  //     app.listen(TEST_PORT, () => {
+  //       console.log(`Test server is listening at http://localhost:${TEST_PORT}`);
+  //       resolve();
+  //     });
+  //   });
 };
