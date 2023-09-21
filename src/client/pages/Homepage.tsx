@@ -1,3 +1,10 @@
+import Cloudpics from "../assets/Cloudpics";
+
 export default function Homepage() {
-  return <h3>Home</h3>;
+  return (
+    <div>
+      <h3>Home</h3>
+      <Cloudpics />
+    </div>
+  );
 }
