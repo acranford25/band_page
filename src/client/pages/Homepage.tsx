@@ -5,8 +5,6 @@ import { url } from "inspector";
 import NavBar from "../components/NavBar";
 
 export default function Homepage() {
-  let path = Cloudpic1();
-  console.log(path._source.fileName);
   return (
     <div className="homepage">
       <NavBar />

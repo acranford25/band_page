@@ -8,7 +8,6 @@
     "start:dev": "npx ts-node-dev --respawn --transpile-only src/server/start.ts",
     "db:reset": "npx ts-node src/db/resetDB.ts"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
