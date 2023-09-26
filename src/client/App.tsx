@@ -1,4 +1,5 @@
 import "./App.css";
+import NavBar from "./components/NavBar";
 import Bio from "./pages/Bio";
 import Homepage from "./pages/Homepage";
 import { Songs } from "./pages/Songs";

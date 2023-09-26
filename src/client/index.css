@@ -19,6 +19,13 @@
   background-size: cover;
 }
 
+#bio {
+  padding: 0;
+  height: 100vh;
+  background: url(https://res.cloudinary.com/doh7njipk/image/upload/v1/TheVinylBirds/The.Gypsies-112-EDIT_1_lrzczj?_a=BAJFJtWI0);
+  background-size: cover;
+}
+
 @layer base {
   h1 {
     @apply text-2xl;

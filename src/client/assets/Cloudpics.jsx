@@ -9,7 +9,7 @@ const Cloudpic1 = () => {
   const pic1 = cld.image(`TheVinylBirds/The.Gypsies-112-EDIT_1_lrzczj`);
 
   return (
-    <div className="App-body">
+    <div className="pic1 ">
       <AdvancedImage cldImg={pic1} />
     </div>
   );
